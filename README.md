@@ -1,4 +1,6 @@
 # CS2 Playstyle & Roles Dataset (2024)
+[![DOI](https://zenodo.org/badge/1069609087.svg)](https://doi.org/10.5281/zenodo.17264782)
+
 
 **Single-file dataset** capturing player playstyle features and roles across professional Counter-Strike 2 matches (2024).  
 It’s designed for quick exploration (clustering, similarity search, role analysis) and to be easy to load in Python/R.
@@ -8,7 +10,7 @@ It’s designed for quick exploration (clustering, similarity search, role analy
 - **Key features:** opening attempts (OAP), trading behaviour (PODT/POKT), time-alive-per-death (TAPD), and positioning **team-relative ranking** metrics (ADNT/ADAT), plus per-side and overall role labels.
 
 > **License:** CC BY 4.0 (attribution required).  
-> **Credit:** dataset engineered with the help of the [`awpy`](https://github.com/pnxenopoulos/awpy) library; role labels derived from Harry Richards’ (@NER0cs) [Positions Database](https://public.tableau.com/app/profile/harry.richards4213/viz/OLDPositionsDatabaseArchived/PositionsDatabaseNER0cs) (credited below). Special Thanks!
+> **Credit:** dataset engineered with the help of the [`awpy`](https://github.com/pnxenopoulos/awpy) library; role labels derived from Harry Richards’ [(@NER0cs)](https://x.com/NER0cs) [Positions Database](https://public.tableau.com/app/profile/harry.richards4213/viz/OLDPositionsDatabaseArchived/PositionsDatabaseNER0cs) (credited below). Special Thanks!
 
 ---
 
