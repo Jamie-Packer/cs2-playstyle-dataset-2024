@@ -31,7 +31,7 @@ All percentages are on **0–100** scale.
 | `podt_t`            | float  | % (0–100)   | **Proportion of Deaths Traded** on T within a 5s window. |
 | `podt_ct`           | float  | % (0–100)   | PODT on CT. |
 | `podt_overall`      | float  | % (0–100)   | Round-weighted across sides. |
-| `pokt_t`            | float  | % (0–100)   | **Proportion of Kills Traded** on T within a 5s window. |
+| `pokt_t`            | float  | % (0–100)   | **Proportion of Kills which are Trades** on T within a 5s window. |
 | `pokt_ct`           | float  | % (0–100)   | POKT on CT. |
 | `pokt_overall`      | float  | % (0–100)   | Round-weighted across sides. |
 
@@ -68,8 +68,8 @@ With 5 players and no ties, the set is `{0.2, 0.4, 0.6, 0.8, 1.0}` where **highe
 
 | Column         | Type   | Description |
 |----------------|--------|-------------|
-| `role_t`       | string | T-side role (e.g., Spacetaker/Lurker/AWPer/IGL/Flex/etc.). |
-| `role_ct`      | string | CT-side role (e.g., Anchor/Rotator/Mixed/etc.). |
+| `role_t`       | string | T-side role (Spacetaker/Lurker/Half-Lurker/AWPer). |
+| `role_ct`      | string | CT-side role (Anchor/Rotator/Mixed/AWPer). |
 | `role_overall` | string | Overall/primary role label. |
 
 > **Source:** Roles are adapted from [**Harry Richards’ Positions Database**](https://public.tableau.com/app/profile/harry.richards4213/viz/OLDPositionsDatabaseArchived/PositionsDatabaseNER0cs) (credited; see README). Some entries may be missing where a mapping was not available. Some may have been attributed by **Jamie Packer** personally.
