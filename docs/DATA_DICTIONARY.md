@@ -31,7 +31,7 @@ All percentages are on **0–100** scale.
 | `podt_t`            | float  | % (0–100)   | **Proportion of Deaths Traded** on T within a 5s window. |
 | `podt_ct`           | float  | % (0–100)   | PODT on CT. |
 | `podt_overall`      | float  | % (0–100)   | Round-weighted across sides. |
-| `pokt_t`            | float  | % (0–100)   | **Proportion of Kills which are Trades** on T within a 5s window. |
+| `pokt_t`            | float  | % (0–100)   | **Proportion of Kills which were Trades** on T within a 5s window. |
 | `pokt_ct`           | float  | % (0–100)   | POKT on CT. |
 | `pokt_overall`      | float  | % (0–100)   | Round-weighted across sides. |
 
@@ -53,10 +53,10 @@ With 5 players and no ties, the set is `{0.2, 0.4, 0.6, 0.8, 1.0}` where **highe
 
 | Column                  | Type  | Range   | Definition |
 |-------------------------|-------|---------|------------|
-| `adnt_rank_t`           | float | 0.2–1.0 | **Average Distance to Nearest Teammate** — team-relative rank on T (higher = more isolated). |
+| `adnt_rank_t`           | float | 0.2–1.0 | **Average Distance from Nearest Teammate** — team-relative rank on T (higher = more isolated). |
 | `adnt_rank_ct`          | float | 0.2–1.0 | ADNT rank on CT. |
 | `adnt_rank_overall`     | float | 0.2–1.0 | Round-weighted rank across sides. |
-| `adat_rank_t`           | float | 0.2–1.0 | **Distance from Team Centre (centroid)** — team-relative rank on T (higher = further from centre). |
+| `adat_rank_t`           | float | 0.2–1.0 | **Average Distance from Average Teammate** — team-relative rank on T (higher = further from centre). |
 | `adat_rank_ct`          | float | 0.2–1.0 | ADAT rank on CT. |
 | `adat_rank_overall`     | float | 0.2–1.0 | Round-weighted rank across sides. |
 
